@@ -3,7 +3,7 @@ int main() {
     char string[100];
     int b;
     char doing[100];
-    printf("Name: \n");
+    printf("Name: ");
     scanf("%s",&string);
     printf("%s",string);
     printf("Age: \n");
