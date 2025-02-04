@@ -2,9 +2,9 @@
 int main() {
 char a;
 int b;
-printf("Hexadecimal: %X\n ",a );
 scanf(" %c",&a);
-printf("Octal: %o ",b);
+printf("Hexadecimal: %X\n ",a );
 scanf(" %d",&b);
+printf("Octal: %o ",b);
 return 0;
 }
