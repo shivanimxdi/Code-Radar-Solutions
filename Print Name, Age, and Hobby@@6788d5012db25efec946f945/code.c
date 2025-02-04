@@ -6,10 +6,10 @@ int main() {
     printf("Name: ");
     scanf("%s",&string);
     printf("%s",string);
-    printf("Age: \n");
+    printf("Age: ");
     scanf("%d",&b);
     printf("%d",b);
-    printf("Hobby \n");
+    printf("Hobby ");
     scanf("%s",&doing);
     printf("%s",doing);
     return 0;
