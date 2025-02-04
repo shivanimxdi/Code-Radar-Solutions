@@ -5,7 +5,7 @@ int main() {
     char doing[100];
     printf("Name: ");
     scanf("%s",&string);
-    printf("%s",string);
+    printf("%s \n",string);
     printf("Age: ");
     scanf("%d",&b);
     printf("%d",b);
