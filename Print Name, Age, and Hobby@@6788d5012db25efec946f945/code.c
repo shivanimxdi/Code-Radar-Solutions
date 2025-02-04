@@ -9,7 +9,7 @@ int main() {
     printf("Age: ");
     scanf("%d",&b);
     printf("%d \n",b);
-    printf("Hobby ");
+    printf("Hobby: ");
     scanf("%s",&doing);
     printf("%s",doing);
     return 0;
