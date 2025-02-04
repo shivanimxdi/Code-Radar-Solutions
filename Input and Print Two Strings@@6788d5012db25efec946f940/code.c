@@ -1,8 +1,9 @@
 #include <stdio.h>
 int main() {
-    char c,cpp;
+    char stringa[1000];
+    char stringb[1000];
     printf("You entered: ");
-    scanf("%s",&c);
-    scanf("%s",&cpp);
+    scanf("%s",&stringa);
+    scanf("%s",&stringb);
     return 0;
 }
