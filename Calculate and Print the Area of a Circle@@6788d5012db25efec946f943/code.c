@@ -6,6 +6,6 @@ int main() {
     printf("Area: ");
     scanf("%lf",&radius);
     Area=(M_PI*radius*radius);
-    printf("%lf",Area);
+    printf("%.2lf",Area);
     return 0;
 }
