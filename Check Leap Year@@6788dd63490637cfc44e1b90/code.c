@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
-    int a;
-    scanf("%d",&a);
+    int year;
+    scanf("%d",&year);
     if(a%400==0){
         printf("Leap Year");
     }
