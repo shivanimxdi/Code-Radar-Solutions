@@ -4,7 +4,10 @@ int main(){
     if(a%2==0){
         printf("Even");
     }
-    else{
+    else if(a%0!=0){
         printf("Odd");
+    }
+    else{
+        printf("Nothing");
     }
 }
