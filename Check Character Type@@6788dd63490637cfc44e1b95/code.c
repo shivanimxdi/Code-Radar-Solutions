@@ -3,14 +3,14 @@ int main(){
     char what;
     scanf("%c",&what);
     if(what=='a'|| what=='e'|| what=='i'|| what=='o'|| what=='u'||){
-        prinf("Vowel");}
-    else if(what!='a'|| what!='e'||what!='i'||what!='o'||what!='u'||){
-        prinf("Consonant");
+        printf("Vowel");}
+    else if((what >= 'a' && what <= 'z') || (what >= 'A' && what <= 'Z')){
+        printf("Consonant");
     }
     else if(what>='0' && what<='9'){
-        prinf("Digit");
+        printf("Digit");
     }
     else{
-        prinf("Special Character");
+        printf("Special Character");
     }
     }
