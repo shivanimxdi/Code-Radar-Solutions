@@ -4,7 +4,7 @@ int main(){
     scanf("%d",&a);
     scanf("%d",&b);
     if(a>b){
-        printf("greater integer");
+        printf("%d");
     }
     else{
         printf("not the greater integer");
