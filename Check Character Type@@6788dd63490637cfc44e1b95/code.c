@@ -3,7 +3,7 @@ int main(){
     char what;
     scanf("%c",&what);
     if(what=='a'|| what=='e'|| what=='i'|| what=='o'|| what=='u'||){
-        prinf("Vowel");
+        prinf("Vowel");}
     else if(what!='a'|| what!='e'||what!='i'||what!='o'||what!='u'||){
         prinf("Consonant");
     }
@@ -14,4 +14,3 @@ int main(){
         prinf("Special Character");
     }
     }
-}
