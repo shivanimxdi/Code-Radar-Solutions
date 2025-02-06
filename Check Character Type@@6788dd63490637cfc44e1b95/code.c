@@ -2,7 +2,7 @@
 int main(){
     char what;
     scanf("%c",&what);
-    if(what=='a'|| what=='e'|| what=='i'|| what=='o'|| what=='u'||){
+    if(what=='a'|| what=='e'|| what=='i'|| what=='o'|| what=='u'){
         printf("Vowel");}
     else if((what >= 'a' && what <= 'z') || (what >= 'A' && what <= 'Z')){
         printf("Consonant");
