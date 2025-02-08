@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main(){
     int n;
-    scanf("%d",&a);
-    if(a<=0){
+    scanf("%d",&n);
+    if(n<=0){
         printf("Freezing");
     }
     else{
