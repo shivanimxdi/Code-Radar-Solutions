@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main() {
     char grades;
+    scanf("%c",&grades);
     if(grades=='A'){
         printf("Excellent");
     }
