@@ -7,7 +7,6 @@ int fibonacci(int n){
 }
 int main(){
     int n;
-    printf("Enter the value ");
     scanf("%d",&n);
     int fibo = fibonacci(n);
     printf("%d",fibo);
