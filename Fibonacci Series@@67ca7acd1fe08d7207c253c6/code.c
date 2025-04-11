@@ -10,4 +10,4 @@ int main(){
     scanf("%d",&n);
     int fibo = fibonacci(n);
     printf("%d",fibo);
-}
+} 
